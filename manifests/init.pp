@@ -4,8 +4,8 @@
 #
 #  include xtrafinder
 class xtrafinder {
-  package { 'XtraFinder':
-    provider => 'appdmg',
+  package { 'XtraFinder.pkg':
+    provider => 'pkgdmg',
     source   => 'http://www.trankynam.com/xtrafinder/downloads/XtraFinder.dmg',
   }
 }
