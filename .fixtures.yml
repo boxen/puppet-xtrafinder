@@ -1,0 +1,3 @@
+fixtures:
+  symlinks:
+    "xtrafinder": "#{source_dir}"
