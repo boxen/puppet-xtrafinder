@@ -1,4 +1,4 @@
-# XtraFinder Puppet Module for Boxen
+# XtraFinder Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-xtrafinder.png)](https://travis-ci.org/boxen/puppet-xtrafinder)
 
 Install [XtraFinder](http://www.trankynam.com/xtrafinder/), a tool that adds Tabs and features to Mac Finder.
 
@@ -14,8 +14,5 @@ include xtrafinder
 
 ## Development
 
-Write code. Run one of the following tasks to test it:
-* `rake syntax`
-* `rake style`
-* `rake spec`
-* `rake build`
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
